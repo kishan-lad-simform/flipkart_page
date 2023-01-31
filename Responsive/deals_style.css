@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f3f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deals-of-day{
+    background-color: white;
+    display: flex;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+}
+.deals-with-btn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+#deals-text{
+    font-size: 21px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+.deals-with-btn button{
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 12px;
+    align-self: center;
+    height: 25px;
+    width: 90px;
+    border-radius: 2px;
+    border:none;
+    color: white;
+    font-weight: 550;
+    background-color: #2874f0;
+}
+.deals-content{
+    display: flex;
+    height: auto;
+    background-color: red;
+    width: auto;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+}
